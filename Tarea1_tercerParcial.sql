@@ -1,3 +1,6 @@
+--GERARDO JOSUE MONTOYA AMAYA--
+--20191002364--
+
 --EJERCICIO #1--
 select 
   SUM(number) over(partition by name,gender order by number desc ) as SUMA,
